@@ -1,0 +1,324 @@
+*{
+  margin: 0;
+  padding: 0;
+      font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ 
+ background: url(lava.jpg);
+ background: cover;
+ 
+}
+body{
+ background: transparent;
+  
+}
+
+.login{
+  
+  text-align: center;
+ width: 300px;
+ padding: 40px;
+  border:none;
+  background: transparent;
+  
+}
+h1{
+  color: black;
+  font-size: 50px;
+  background: transparent;
+  
+}
+
+.login .in{
+  width: 100%;
+  margin:20px;
+ margin-left: 5px;
+  height: 50px;
+  background: transparent;
+ 
+  
+}
+.login .sign{
+  margin: 10px;
+  width:100%;
+  height: 50px;
+  margin-left: 5px;
+  background: transparent;
+
+}
+.sign button{
+  font-size: 1.3em;
+ border-style: none;
+
+ box-shadow: 2px 2px 12px black;
+
+ margin-bottom: 10px;
+ 
+ 
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  
+color: black;
+background: transparent;
+  transition: 1s;
+  
+}
+a{
+  color: black;
+  background: transparent;
+  text-decoration: none;
+  
+}
+.in input{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px; 
+ 
+  border-style: none;
+  box-shadow: 2px 2px 12px black;
+  background: transparent ;
+  color: white;
+  font-size: 18px;
+  text-decoration-color: white;
+  
+}
+.in input::placeholder{
+  color: black;
+  
+  background: transparent;
+}
+
+  
+  
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 50%;
+ 
+  margin-top: 50%;
+  background: transparent;
+}
+
+
+
+
+.regbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 50%;
+  margin-top: 30%;
+  background: transparent;
+}
+
+
+.reg{
+  text-align: center;
+  width: 300px;
+  padding: 80px;
+  background: transparent ;
+  
+  
+}
+.reg .in2{
+  width: 100%;
+  height: 50px;
+  background: transparent ;
+  margin: 20px;
+  margin-left: 5px;
+  
+}
+.in2 input{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border:none;
+box-shadow: 2px 2px 12px black;
+  background: transparent;
+  
+}
+.in2 input::placeholder{
+  font-size: 15px;
+  color: black;
+  
+}
+.reg .rgbt{
+  width: 100%;
+  height: 50px;
+  margin: 20px;
+  margin-left: 5px;
+  background: transparent;
+}
+.rgbt button{
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  background-color: black;
+  color: black;
+  font-size: 20px;
+  border: none;
+  box-shadow: 2px 2px 12px black;
+  
+
+  background: transparent;
+  
+}
+.reg .in3{
+  height: 50px;
+  width: 100;
+  background:transparent;
+  
+  
+}
+.in3 input{
+  width:60%;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  margin-left: 5px;
+  color: white;
+  background: transparent;
+  box-shadow: 2px 2px 12px black;
+  
+}
+.in3 input::placeholder{
+  color: black;
+  font-size: 15px;
+  
+}
+.in3 button{
+  width: 30%;
+  height:50px;
+  border: none;
+  box-shadow: 2px 2px 12px black;
+  border-radius: 30px;
+  margin-left: 11px;
+  color: black;
+  background: transparent;
+ 
+  font-size: 15px;
+}
+
+.home{
+ display: flex;
+  justify-content:space-between;
+}
+.home i{
+  padding: 25px;
+  color: white;
+}
+h2{
+  padding: 15px;
+  color: white;
+}
+.db a{
+  color: white;
+  background: transparent;
+  margin-top: 10px;
+  
+  
+}
+
+.dba{
+  margin-bottom: 30px;
+  margin-left:20px;
+  
+}
+.db{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  top: 0;
+  left:-60%;
+  background: transparent url(lava.jpg);
+
+  
+  
+  
+  
+  
+  padding: 10px;
+  margin-top: 10px;
+  
+  position: fixed;
+  transition: 1s;
+ 
+ 
+}
+.db i{
+  text-align: right;
+  color: white;
+  background: transparent;
+}
+
+.dashall{
+  background-color: white;
+}
+ 
+
+/*contact*/
+
+.contact{
+  top: 0;
+  left:-60%;
+  display:flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  margin-top: 10px;
+  background: url(lava.jpg);
+  transition: 1s;
+  
+  
+}
+.contact i{
+  background: transparent;
+  color: white ;
+  margin-left: 20px;
+  
+  
+}
+.contact p{
+  background: transparent;
+  color: white;
+ 
+  margin-left: 20px;
+  margin-top:10px;
+  
+}
+.contact a{
+  color: white;
+  text-decoration: none;
+  margin-left:10px;
+  background: transparent;
+}
+.contact #close{
+  margin-bottom: 20px;
+  text-align: right;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  top:0;
+  position:fixed;
+  width: 100%;
+  left:-100%;
+  color: white;
+  background-image: url(lava.jpg);
+  transition: 1s;
+  height:100%;
+  text-align: center;
+}
+.about i{
+  text-align: right;
+  color: white;
+  
+  
+}
